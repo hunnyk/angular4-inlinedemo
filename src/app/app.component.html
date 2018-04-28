@@ -1,0 +1,23 @@
+<ng2-smart-table [settings]="settings" [source]="data" (createConfirm)="saveRegisters($event)" (deleteConfirm)="deleteRegisters($event)" (editConfirm)="updateRegisters($event)">
+
+
+</ng2-smart-table>
+
+
+<!--<table id="example" class="display">
+  <thead>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Edit</th>
+  </thead>
+  <tbody>
+  <tr *ngFor="let d of myserv.data">
+    <td>{{d.reg_id}}</td>
+    <td>{{d.reg_name}}</td>
+    <td>{{d.reg_email}}</td>
+    <td><button type="button" (click)="deleteRegisters(d.reg_id)">Delete</button></td>
+    <td><button type="button">Edit</button></td>
+  </tr>
+  </tbody>
+</table>-->
